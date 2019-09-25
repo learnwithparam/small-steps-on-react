@@ -6,6 +6,7 @@ import "./App.css";
 import TextSizeChanger from "./pages/textsize-changer";
 import CountriesList from "./pages/countries-list";
 import CountriesListUseReducer from "./pages/usereducer-countries-list";
+import CSSinReact from "./pages/css-in-react";
 
 const Home = () => {
   return (
@@ -25,6 +26,9 @@ const Home = () => {
           Managing error and loading state using useReducer
         </Link>
       </li>
+      <li>
+        <Link to="css-in-react">Card component using CSS in React</Link>
+      </li>
     </ul>
   );
 };
@@ -36,6 +40,7 @@ function App() {
       <TextSizeChanger path="textsize-changer" />
       <CountriesList path="countries-list" />
       <CountriesListUseReducer path="countries-list-usereducer" />
+      <CSSinReact path="css-in-react" />
     </Router>
   );
 }

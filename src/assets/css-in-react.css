@@ -1,0 +1,17 @@
+body,
+html {
+  padding: 15px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.card-title {
+  padding-left: 15px;
+}
+.card-image {
+  width: 100%;
+}
