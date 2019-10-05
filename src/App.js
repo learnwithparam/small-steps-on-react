@@ -8,6 +8,7 @@ import CountriesList from "./pages/countries-list";
 import CountriesListUseReducer from "./pages/usereducer-countries-list";
 import CSSinReact from "./pages/css-in-react";
 import CSSModulesinReact from "./pages/card-css-modules";
+import BadgeComponentUsingEmotion from "./pages/badge";
 
 const Home = () => {
   return (
@@ -35,6 +36,9 @@ const Home = () => {
           Card component using CSS Modules in React
         </Link>
       </li>
+      <li>
+        <Link to="badge-using-emotion">Badge component using Emotion</Link>
+      </li>
     </ul>
   );
 };
@@ -48,6 +52,7 @@ function App() {
       <CountriesListUseReducer path="countries-list-usereducer" />
       <CSSinReact path="css-in-react" />
       <CSSModulesinReact path="css-modules-in-react" />
+      <BadgeComponentUsingEmotion path="badge-using-emotion" />
     </Router>
   );
 }
